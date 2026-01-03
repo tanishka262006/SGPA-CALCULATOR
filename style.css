@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.subject {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+select {
+    width: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    margin-top: 15px;
+}
