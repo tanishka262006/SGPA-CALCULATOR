@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
     <h2>Semester 3 SGPA Calculator</h2>
 
+    <!-- 13 Subjects -->
     <div class="row"><label>S&S (3)</label><select class="grade"></select></div>
-    <div class="row"><label>S&S(TU)(1)</label><select class="grade"></select></div>
+    <div class="row"><label>S&S(TU) (1)</label><select class="grade"></select></div>
     <div class="row"><label>ACD (3)</label><select class="grade"></select></div>
-    <div class="row"><label>ACDL (2)</label><select class="grade"></select></div>
+    <div class="row"><label>ACDL (1)</label><select class="grade"></select></div>
     <div class="row"><label>NAS (2)</label><select class="grade"></select></div>
     <div class="row"><label>NAS(TU) (1)</label><select class="grade"></select></div>
     <div class="row"><label>ESDL (2)</label><select class="grade"></select></div>
@@ -23,8 +23,7 @@
     <div class="row"><label>PDCR (1)</label><select class="grade"></select></div>
     <div class="row"><label>CEP (1)</label><select class="grade"></select></div>
 
-    <button onclick="calculateSGPA()">Calculate SGPA</button>
-
+    <button id="calcBtn">Calculate SGPA</button>
     <h3 id="result">SGPA: 0.00</h3>
 </div>
 
