@@ -42,13 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const sgpa = totalPoints / totalCredits;
 
-        const resultEl = document.getElementById("result");
-        resultEl.innerText = "SGPA: " + sgpa.toFixed(2);
-
-        resultEl.style.color =
-            sgpa >= 9 ? "#28a745" :
-            sgpa >= 7 ? "#007bff" :
-            sgpa >= 5 ? "#fd7e14" :
-                        "#dc3545";
+        // Add this line at the end of your calculate function
+const resultDiv = document.getElementById("result");
+resultDiv.innerText = "Your SGPA: " + sgpa.toFixed(2);
+resultDiv.style.display = "block"; // Show the box
     });
 });
