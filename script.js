@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // Credits must match number of subjects (13)
-    const credits = [3,1,3,2,2,1,2,2,1,2,2,1,1];
+    const credits = [3,1,3,2,1,1,2,2,1,2,2,1,1];
     const grades = document.querySelectorAll(".grade");
 
     const gradeOptions = `
