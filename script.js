@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const grades = document.querySelectorAll(".grade");
 
     const gradeOptions = `
-        
+         <option value="">select</option>
         <option value="10">O</option>
         <option value="9">A+</option>
         <option value="8">A</option>
